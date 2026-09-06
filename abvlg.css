@@ -9,7 +9,7 @@
   ========================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&family=Spectral:wght@400;500;600;700&display=swap');
-
+@import-theme 'default';
 
 /* =========================================================
   VARIABLES
@@ -50,10 +50,6 @@ font-weight: 400;
 padding: 60px 80px;
 
 line-height: 1.45;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
 }
 
 
