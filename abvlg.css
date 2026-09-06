@@ -51,7 +51,9 @@ padding: 60px 80px;
 
 line-height: 1.45;
 
-place-content: safe center center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 
@@ -125,6 +127,7 @@ Utilisation :
 */
 
 section.lead {
+justify-content: center;
 text-align: center;
 }
 
